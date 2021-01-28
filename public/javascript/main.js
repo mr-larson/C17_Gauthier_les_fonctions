@@ -80,4 +80,68 @@ console.log (capitalize (prompt (" donne moi un mot ")))
  */
 //-------------------------------------
 //09
+/* 
+let calcul = ( nbr1, nbr2, operator ) =>{
+    switch (operator){
+        case "+" :
+            return ( nbr1 + nbr2 ) 
+            break
+        case "*" :
+            return ( nbr1 * nbr2 )   
+            break 
+        case "-" :
+            return ( nbr1 - nbr2 )   
+            break 
+        case "/" :
+            return ( nbr1 / nbr2 )   
+            break 
+        default :
+            return ("valeur erronée") 
+            break 
+    } 
 
+}
+let a = parseInt (prompt ("donne moi un nombre "))
+let b = parseInt (prompt ("donne moi un second nombre"))
+let c = prompt ("donne moi un operation") 
+
+alert  (calcul(a , b , c))
+ */
+//------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//09
+let fonction = (nbr1, nbr2, operator )=>{
+
+}
