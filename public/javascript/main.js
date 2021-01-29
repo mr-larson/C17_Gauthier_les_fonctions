@@ -137,11 +137,8 @@ alert  (calcul(a , b , c))
 
 
 
-
-
-
-
-//09
-let fonction = (nbr1, nbr2, operator )=>{
-
-}
+//-----------------------------------------
+//exo supp
+let a = ( a, b , c ) => {
+    return (`Voici la ${a}, ${b} coller en dessous de ${c}. Mais oui c'est clair`)
+} 
