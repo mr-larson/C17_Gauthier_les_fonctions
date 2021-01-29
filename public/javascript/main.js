@@ -13,7 +13,7 @@ let direBonjour = (prenom, nom) => {
 let addition = ( a , b ) =>{
     return a + b 
 } 
-let resultat = addition ("5" , "2")
+let resultat = parseInt (addition ("5" , "2"))
 console.log(resultat)
  */
 //-----------------------------------
@@ -56,7 +56,7 @@ console.log(resultat)
 //06
 /* 
 let car = ( a ) =>{
-    return math.sqrt(a)
+    return a * a
 } 
 let resultat = car ("5")
 console.log(resultat)
@@ -105,17 +105,15 @@ let a = parseInt (prompt ("donne moi un nombre "))
 let b = parseInt (prompt ("donne moi un second nombre"))
 let c = prompt ("donne moi un operation") 
 
-alert  (calcul(a , b , c))
+console.log (calcul(a , b , c))
  */
 //------------------------------------------
+//exo_middle_fonctions
+//01
 
-
-
-
-
-
-
-
+let reverseNumber = (nombre) =>{
+    return ()
+}
 
 
 
@@ -139,6 +137,13 @@ alert  (calcul(a , b , c))
 
 //-----------------------------------------
 //exo supp
-let a = ( a, b , c ) => {
+
+let fonction = ( a, b , c ) => {
     return (`Voici la ${a}, ${b} coller en dessous de ${c}. Mais oui c'est clair`)
 } 
+let motA = prompt ("donne un mot")
+let motB = prompt ("donne un mot")
+let motC = prompt ("donne un mot")
+
+let resultat = fonction (a,b,c)
+alert (resultat)
