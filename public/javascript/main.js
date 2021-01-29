@@ -110,13 +110,43 @@ console.log (calcul(a , b , c))
 //------------------------------------------
 //exo_middle_fonctions
 //01
-
+/* 
 let reverseNumber = (nombre) =>{
-    return ()
+    nombre = nombre + ""
+	return nombre.split("").reverse().join("")
 }
-
-
-
+console.log(reverseNumber(32243))
+ */
+//------------------------------------------
+//02         
+/* 
+let estPair = (a) => {
+    switch (a%2){
+        case (a < 0):
+            return (`le chiffre ${a} est pair`)
+        case (a > 5):
+            return (`le chiffre ${a} est impair`)
+        default :
+            return (`donnée invalide`)
+    }
+}
+console.log (estPair())
+ */
+//-------------------------------------------
+//03
+/* 
+let logIn = (a) => {
+    let result;
+  if (a === "mdp") {
+    result = 'positive';
+  } else {
+    result = 'NOT positive';
+  }
+  return result;
+}
+a = prompt ("mot de passe ?")
+alert (logIn(a))
+ */
 
 
 
@@ -137,7 +167,7 @@ let reverseNumber = (nombre) =>{
 
 //-----------------------------------------
 //exo supp
-
+/* 
 let fonction = ( a, b , c ) => {
     return (`Voici la ${a}, ${b} coller en dessous de ${c}. Mais oui c'est clair`)
 } 
@@ -147,3 +177,4 @@ let motC = prompt ("donne un mot")
 
 let resultat = fonction (a,b,c)
 alert (resultat)
+ */
