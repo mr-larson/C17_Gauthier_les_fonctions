@@ -115,7 +115,7 @@ let reverseNumber = (nombre) =>{
     nombre = nombre + ""
 	return nombre.split("").reverse().join("")
 }
-console.log(reverseNumber(32243))
+console.log(reverseNumber(324))
  */
 //------------------------------------------
 //02         
@@ -146,25 +146,43 @@ let logIn = (a) => {
 }
 a = prompt ("mot de passe ?")
 alert (logIn(a))
+*/
+//----------------------------------------
+//challenge_fonction
+//01
+
+let codingSchool17 =[]
+let add = (student) =>{
+    codingSchool17.push (student)
+    console.log (student + "rentre en classe")
+}
+let remove = (student) => {
+    codingSchool17.splice (codingSchool17.indexOf(student))
+    console.log(student + "sort de la classe")
+}
+
+add ("Antoine")
+add ("Said")
+add ("Abdel")
+add ("Nathan")
+add ("Yasmina")
+remove ("Abdel")
+add ("Gauthier")
+remove ("Said")
+remove ("Yasmina")
+
+console.log(codingSchool17)
+
+//----------------------------------------
+//02
+/* 
+function estPremier(nbr) {
+    for(var i = 2; i < nbr; i++)
+      if(nbr%i === 0) return false;
+    return nbr > 1;
+  }
+console.log(estPremier(2))
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //-----------------------------------------
 //exo supp
 /* 
