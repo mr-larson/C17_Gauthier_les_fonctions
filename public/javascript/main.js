@@ -150,9 +150,17 @@ alert (logIn(a))
 //----------------------------------------
 //challenge_fonction
 //01
-
+/* 
 let codingSchool17 =[]
 let add = (student) =>{
+    if (codingSchool17.includes(student)){
+        codingSchool17.splice (codingSchool17.indexOf(student))
+        console.log(student + "sort de la classe")
+    }
+    else {
+       console.log (student +"n'est pas dans la classe") 
+    }
+    
     codingSchool17.push (student)
     console.log (student + "rentre en classe")
 }
@@ -172,17 +180,18 @@ remove ("Said")
 remove ("Yasmina")
 
 console.log(codingSchool17)
-
+ */
 //----------------------------------------
 //02
-/* 
-function estPremier(nbr) {
-    for(var i = 2; i < nbr; i++)
-      if(nbr%i === 0) return false;
-    return nbr > 1;
-  }
+
+let estPremier = (nbr) =>{
+    for(let i = 2; i < nbr; i++){
+      if(nbr%i === 0) return ("n'est pas premier")
+    }  
+    return nbr + "est premier"
+}
 console.log(estPremier(2))
- */
+
 //-----------------------------------------
 //exo supp
 /* 
